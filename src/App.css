@@ -36,3 +36,6 @@
     transform: rotate(360deg);
   }
 }
+.player-container{
+  max-width: 1200px;
+}
