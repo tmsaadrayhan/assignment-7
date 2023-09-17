@@ -5,10 +5,12 @@ import { useEffect, useState } from 'react';
 import PlayersList from './PlayersList/PlayersList';
 import PlayersSelected from './PlayersSelected/PlayersSelected';
 
-
 function App() {
   const[players, setPlayer] = useState([]);
   const [cart, setCart] = useState([]);
+  useEffect(()=> {
+    document.title= "ICC World Cup Player Selection"
+  })
   useEffect(() => {
     setPlayer(playersData);
   }, []);
