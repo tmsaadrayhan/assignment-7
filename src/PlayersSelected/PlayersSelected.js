@@ -3,7 +3,7 @@ import React from 'react';
 const PlayersSelected = (props) => {
     return (
         <div>
-            <div className="mt-5 card card-player">
+            <div className="shadow mt-5 card card-player">
                 <div className="card-body ">
                     <h3 className="card-title">Selected Players</h3>
                     <p className="card-text">Total Players:{props.cart.length}</p>
